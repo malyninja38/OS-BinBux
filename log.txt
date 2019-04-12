@@ -1,0 +1,17 @@
+[Moduł zarządzania procesami] Utworzono menedżer procesów
+[Moduł zarządzania procesami] Wygenerowano nowy pid: 1
+[Moduł zarządzania procesami] Utworzono menedżer procesów
+[Moduł zarządzania procesami] Wygenerowano nowy pid: 1
+[Moduł zarządzania procesami] Wygenerowano nowy pid: 2
+[Moduł Zamki] Zamek o numerze 6 został odblokowany przez proces2.
+[Moduł zarządzania procesami] Wprowadzono właściwości procesu:
+	nazwa: [klops]
+	pid: 2
+	długość programu: 128 bajty
+[Moduł zarządzania procesami] Zmieniono status procesu "[klops]" z NEW na READY
+[Moduł zarządzania procesami] Zmieniono status procesu "[klops]" z READY na RUNNING
+[Moduł zarządzania procesami] Utworzono menedżer procesów
+[Moduł zarządzania procesami] Wygenerowano nowy pid: 1
+[Moduł zarządzania procesami] Utworzono menedżer procesów
+[Moduł zarządzania procesami] Wygenerowano nowy pid: 1
+[Moduł synchronizacji] Utworzono moduł synchronizacji.

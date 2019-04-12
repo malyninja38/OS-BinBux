@@ -1,0 +1,79 @@
+BinBux v2.1.3.7 OS
+Test Shell for debug purposes.
+BinBux © 2018 - 2019
+BinBux v2.1.3.7 OS
+Test Shell for debug purposes.
+BinBux © 2018 - 2019
+BinBux 2.137 #> help
+Lista komend systemu BinBux® v2.1.3.7
+cat [filename] - wyświetla zawartość pliku
+help - wyświetla ten komunikat
+kill (-a) [pid] - zabija proces o podanym numerze. W przypadku użycia parametru '-a' zabija wszystkie procesy.
+load [filename] ([pid]) - uruchamia program zapisany na dysku. Można podać numer procesu rodzica
+loadFile [filename] [path] - tworzy na dysku kopię pliku z zewnątrz
+ls (-l) - wyświetla listę plików na dysku. Użycie parametru -l wyświetla szczegółową listę
+printDisk - wyświetla surową zawartość dysku
+ps - wyświetla listę aktualnie pracujących procesów
+ramStatus ([pid]) - wyświetla informacje o zajętości ramek w pamięci. W przypadku podania pid w argumencie wyświetla tablicę stronic podanego procesu
+rm [filename] - usuwa podany plik
+run ([nazwa]) ([id_rodzica]) ([kod]) - uruchamia proces z podanymi parametrami
+testCond - tworzy testowe procesy, które mają sprawdzać działanie zmiennych warunkowych
+testLock - tworzy testowe procesy, które mają sprawdzać działanie zamków
+testPipes - tworzy testowe procesy, które mają sprawdzać działanie potoków
+touch [filename] - tworzy pusty testowy plik o rozmiarze 128 B
+tree - wyświetla aktualne procesy w postaci drzewa
+BinBux 2.137 #> ls
+BinBux 2.137 #> touch [klops]
+BinBux 2.137 #> ls
+[klops] BinBux 2.137 #> ls -l
+Wszystkich plików: 1
+rwxrwxrwx	root root	128	[klops]
+BinBux 2.137 #> load [klops]
+BinBux 2.137 #> ps
+PID		Nazwa		PPID
+1		INIT		brak
+2		[klops]		1
+BinBux v2.1.3.7 OS
+Test Shell for debug purposes.
+BinBux © 2018 - 2019
+BinBux 2.137 #> help
+Lista komend systemu BinBux® v2.1.3.7
+cat [filename] - wyświetla zawartość pliku
+help - wyświetla ten komunikat
+kill (-a) [pid] - zabija proces o podanym numerze. W przypadku użycia parametru '-a' zabija wszystkie procesy.
+load [filename] ([pid]) - uruchamia program zapisany na dysku. Można podać numer procesu rodzica
+loadFile [filename] [path] - tworzy na dysku kopię pliku z zewnątrz
+ls (-l) - wyświetla listę plików na dysku. Użycie parametru -l wyświetla szczegółową listę
+printDisk - wyświetla surową zawartość dysku
+ps - wyświetla listę aktualnie pracujących procesów
+ramStatus ([pid]) - wyświetla informacje o zajętości ramek w pamięci. W przypadku podania pid w argumencie wyświetla tablicę stronic podanego procesu
+rm [filename] - usuwa podany plik
+run ([nazwa]) ([id_rodzica]) ([kod]) - uruchamia proces z podanymi parametrami
+testCond - tworzy testowe procesy, które mają sprawdzać działanie zmiennych warunkowych
+testLock - tworzy testowe procesy, które mają sprawdzać działanie zamków
+testPipes - tworzy testowe procesy, które mają sprawdzać działanie potoków
+touch [filename] - tworzy pusty testowy plik o rozmiarze 128 B
+tree - wyświetla aktualne procesy w postaci drzewa
+BinBux v2.1.3.7 OS
+Test Shell for debug purposes.
+BinBux © 2018 - 2019
+BinBux 2.137 #> help
+Lista komend systemu BinBux® v2.1.3.7
+cat [filename] - wyświetla zawartość pliku
+help - wyświetla ten komunikat
+kill (-a) [pid] - zabija proces o podanym numerze. W przypadku użycia parametru '-a' zabija wszystkie procesy.
+load [filename] ([pid]) - uruchamia program zapisany na dysku. Można podać numer procesu rodzica
+loadFile [filename] [path] - tworzy na dysku kopię pliku z zewnątrz
+ls (-l) - wyświetla listę plików na dysku. Użycie parametru -l wyświetla szczegółową listę
+printDisk - wyświetla surową zawartość dysku
+ps - wyświetla listę aktualnie pracujących procesów
+ramStatus ([pid]) - wyświetla informacje o zajętości ramek w pamięci. W przypadku podania pid w argumencie wyświetla tablicę stronic podanego procesu
+rm [filename] - usuwa podany plik
+run ([nazwa]) ([id_rodzica]) ([kod]) - uruchamia proces z podanymi parametrami
+testCond - tworzy testowe procesy, które mają sprawdzać działanie zmiennych warunkowych
+testLock - tworzy testowe procesy, które mają sprawdzać działanie zamków
+testPipes - tworzy testowe procesy, które mają sprawdzać działanie potoków
+listPipes - wyświetla istniejące potoki w systemie
+printFlags [pid] - wyświetla zawartości flag dla danego procesu
+touch [filename] - tworzy pusty testowy plik o rozmiarze 128 B
+tree - wyświetla aktualne procesy w postaci drzewa
